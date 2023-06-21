@@ -1,0 +1,2 @@
+learning_launch:learning_parameter:learning_service:learning_tf:learning_topic:mrobot_bringup:mrobot_description:mrobot_gazebo:mrobot_navigation:mrobot_teleop:robot_vision
+-DCATKIN_DEVEL_PREFIX=/home/ubuntu/ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/ubuntu/ros_ws/install -G Unix Makefiles

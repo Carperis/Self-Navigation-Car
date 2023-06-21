@@ -1,0 +1,9 @@
+/home/ubuntu/ros_ws/install/_setup_util.py
+/home/ubuntu/ros_ws/install/env.sh
+/home/ubuntu/ros_ws/install/setup.bash
+/home/ubuntu/ros_ws/install/local_setup.bash
+/home/ubuntu/ros_ws/install/setup.sh
+/home/ubuntu/ros_ws/install/local_setup.sh
+/home/ubuntu/ros_ws/install/setup.zsh
+/home/ubuntu/ros_ws/install/local_setup.zsh
+/home/ubuntu/ros_ws/install/.rosinstall

@@ -1,0 +1,14 @@
+rosdistro: 'noetic
+
+  '
+roslaunch:
+  uris:
+    host_ubuntu_virtual_machine__34625: http://ubuntu-virtual-machine:34625/
+rosversion: '1.16.0
+
+  '
+run_id: a73177f0-0885-11ee-8110-c960ebe24f61
+turtlesim:
+  background_b: 255
+  background_g: 255
+  background_r: 255
