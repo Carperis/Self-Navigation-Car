@@ -1,0 +1,11 @@
+1. usb_cam无法打开摄像头：在虚拟机设置里把usb模式设为usb3.1
+
+2. display urdf launch file: 需要把type="state_publisher"变为type="robot_state_publisher"
+
+3. display urdf launch file: 不再使用<param name="use_gui" default="true"/>而使用
+<arg name="use_gui" default="true"/>
+<node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher_gui" output="screen" if="$(arg use_gui)" />
+
+4. xacro file: 宏定义之后要在外部或者文件内使用宏才能生效
+宏定义：<xacro:macro name="mrobot_body" params="a b c"> ... </xacro:macro>
+使用宏：<xacro:mrobot_body a="1" b="2" c="3"/>
